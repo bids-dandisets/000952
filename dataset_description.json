@@ -1,0 +1,17 @@
+{
+    "Name": "32 CH local field potential recording of rodents performing a temporal discounting task",
+    "BIDSVersion": "1.10",
+    "HEDVersion": "8.3.0",
+    "Description": "Local field potential (LFP) recordings from 12 male Long-Evans rats during a temporal discounting task. LFP was recording using an RHD interface board (Intantech) and Open Ephys recording software. Data was recorded at 1Khz, with a band-pass filter set at 0.3 to 999 Hz during acquisition. Physiology data was integrated with behavioral data using a lab-streaming-layer (LSL) protocol. Recordings are taken from 32 different brain areas. Subjects chose between a small (10uL/ 1s) reward delivered after a fixed short delay (500ms after response) or a large (30uL/3s) reward delivered after a fixed delay that varied from session to session (500ms, 1, 2, 5, 10, 20s). ",
+    "DatasetType": "raw",
+    "Authors": [],
+    "License": "CC-BY-4.0",
+    "GeneratedBy": [
+        {
+            "Name": "nwb2bids",
+            "Version": "0.9.1.dev27+gf0fb7253c",
+            "Description": "Tool to reorganize NWB files into a BIDS directory layout.",
+            "CodeURL": "https://github.com/con/nwb2bids"
+        }
+    ]
+}
